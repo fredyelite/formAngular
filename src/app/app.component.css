@@ -1,0 +1,72 @@
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75rem;
+    height: 13rem;
+    background-color: #08f708;
+    border-radius: 3rem;
+    box-shadow:  5px 5px 15px #04c404, inset -5px 5px 10px #08f708, inset -5px -5px 10px #04ac04;
+}
+
+h1{
+    width: 56rem;
+    height: 10rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 6rem;
+}
+
+.titleContainer__imgSize{
+   height: 10rem;
+   width: 10rem; 
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+    width: 75rem;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75rem;
+    height: 55rem;
+}
+
+.formContainer div{
+    width: 75rem;
+    height: 3rem;
+}
+
+.formContainer div label{
+    width: 15rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.formContainer__Btn{
+    width: 6.5rem;
+    height: 3rem;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: .6rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: aqua;
+}
+
+.formContainer input{
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 1.4rem;
+}
